@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- sets width to css pixes (1/96 inch) -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -25,9 +26,35 @@
 		<title>bootstrap-demo</title>
 	</head>
 	<body>
-		<h1>yo</h1>
-		<main>
-
-		</main>
+		<div class="container">
+			<!-- welcome section-->
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>ようこそ！</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p>俺の練習ページです。</p>
+				</div>
+				<div class="col-md-6">
+					<p>まだ下手でしょう。</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<p>ここはテキストエリア一番</p>
+				</div>
+				<div class="col-md-3">
+					<p>ここはテキストエリア二番</p>
+				</div>
+				<div class="col-md-3">
+					<p>ここはテキストエリア三番</p>
+				</div>
+				<div class="col-md-3">
+					<p>ここはテキストエリア四番</p>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

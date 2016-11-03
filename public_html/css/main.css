@@ -1,0 +1,10 @@
+body {
+	background-color: dimgray;
+}
+div[class*="col-"] {
+	border: 1px solid grey;
+}
+.container {
+	background-color: black;
+	color: white;
+}
