@@ -8,3 +8,6 @@ div[class*="col-"] {
 	background-color: black;
 	color: white;
 }
+.navbar .navbar-default {
+	background-color: black;
+}
